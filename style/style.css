@@ -1,0 +1,20 @@
+/* Estilo para el contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Esto asegura que el contenedor ocupe toda la altura de la ventana */
+}
+
+/* Opcional: Estilos para la etiqueta "Inicio de Sesión" */
+label {
+    margin-bottom: 20px; /* Espacio entre la etiqueta y los campos de entrada */
+}
+
+
+/* Estilo para los campos de entrada */
+.form-control {
+    margin-bottom: 20px;
+}
+
